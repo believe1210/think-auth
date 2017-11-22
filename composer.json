@@ -1,0 +1,20 @@
+{
+    "name": "think-auth",
+    "description": "ThinkPHP5 auth Package.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lixy",
+            "email": "lixy@lixy.cc"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "think\\auth\\": ""
+        },
+        "files": [
+            "helper.php"
+        ]
+    }
+}
