@@ -1,5 +1,5 @@
 {
-    "name": "think-auth",
+    "name": "lixy/think-auth",
     "description": "ThinkPHP5 auth Package.",
     "license": "Apache-2.0",
     "authors": [
