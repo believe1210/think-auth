@@ -14,7 +14,7 @@
             "think\\auth\\": ""
         },
         "files": [
-            "helper.php"
+            "Auth.php"
         ]
     }
 }
