@@ -11,7 +11,7 @@
 namespace think\auth;
 
 use think\Db;
-use think\Config;
+use think\facade\Config;
 use think\Session;
 use think\Request;
 use think\Loader;
@@ -106,7 +106,8 @@ class Auth
         }
 
         // 初始化request
-        $this->request = Request::instance();
+        //$this->request = Request::instance();
+        $this->request = new Request();
     }
 
     /**
@@ -233,7 +234,7 @@ class Auth
             return [];
         }
         $map = array(
-            'id' => ['in', $ids],
+            'id' => $ids,
             'type' => $type,
             'status' => 1,
         );
